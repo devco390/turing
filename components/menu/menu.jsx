@@ -1,3 +1,4 @@
+import Logo from '../logo'
 import CalltoAction from '../call-to-actions/call-to-action'
 
 const Menu = () => {
@@ -15,8 +16,8 @@ const Menu = () => {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <a className="navbar-brand" href="index.html">
-                                <img src="assets/images/logo/logo.png" alt="logo" />
+                            <a href="index.html">
+                                <Logo/>
                             </a>
                         </div>
 

@@ -62,7 +62,7 @@ const WeDo = () => {
                                     <div className="we-do-description">
                                         <div className="we-do-info">
                                             <div className="we-do-img">
-                                                <img src="assets/images/home/support-logo.png" alt="image of support" />
+                                                <img src="assets/images/home/busisness_grow.png" alt="image of business" />
                                             </div>
                                             <div className="we-do-topics">
                                                 <h2>

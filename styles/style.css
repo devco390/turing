@@ -283,10 +283,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	grid-gap: 2rem;
+	transform: translateY(5px);
 }
 
 .wrapper-sticky.sticky-active .call-to-actions {
-	transform: translateY(-22px);
+	transform: translateY(-16px);
 }
 
 .call-to-action {
@@ -2642,3 +2643,36 @@ a:active.learn-btn {
 }
 
 /*========================Thank you=================*/
+
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	width: 125px;
+	max-width: 125px;
+}
+
+.wrapper-sticky .logo {
+	padding-top: 1.5rem;
+}
+
+.wrapper-sticky.sticky-active .logo {
+	padding-top: 0;
+}
+
+.logo__text {
+	font-size: 38px;
+	line-height: 38px;
+	color: #ffffff;
+	margin-bottom: 0.25rem;
+	height: auto;
+}
+
+.logo__help-text {
+	font-size: 16px;
+	color: #ffffff;
+	display: flex;
+	justify-content: flex-end;
+}

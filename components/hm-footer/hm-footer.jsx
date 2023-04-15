@@ -1,3 +1,5 @@
+import Logo from '../logo'
+
 const HMFooter = () => {
     return (
         <section className="hm-footer">
@@ -9,7 +11,7 @@ const HMFooter = () => {
                   <div className="hm-foot-title ">
                     <div className="logo">
                       <a href="index.html">
-                        <img src="assets/images/logo/logo.png" alt="logo" />
+                        <Logo/>
                       </a>
                     </div>
                   </div>

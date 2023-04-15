@@ -91,7 +91,7 @@
 	.search input {left: 30px; margin-bottom: 30px;margin-top:10px;}
 	.carousel-control {position:absolute;top: 65%;left:0%;}
 	.carousel-control.right {left:10%;}
-	.single-slide-item h2 {font-size: 45px;}
+	.single-slide-item h2 {font-size: 45px !important;}
 	.single-slide-item {padding-top: 100px;}
 	.we-do-comment p {padding: 0 0px;}
 	.single-team-box {width:270px;}
@@ -152,7 +152,7 @@
 @media screen and (max-width: 440px){
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {width: 108%;}
 	.single-slide-item a.slide-btn{font-size: 10px;}
-	.single-slide-item h2 {font-size:30px;}
+	.single-slide-item h2 {font-size: 30px !important;}
 	.single-slide-item p {font-size: 16px;}
 	.about-us-img:before{display: none;}
 

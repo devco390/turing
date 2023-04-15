@@ -283,7 +283,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	grid-gap: 2rem;
-	transform: translateY(5px);
+	transform: translateY(4px);
 }
 
 .wrapper-sticky.sticky-active .call-to-actions {

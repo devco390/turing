@@ -16,7 +16,7 @@ const Menu = () => {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <a href="index.html">
+                            <a href="#home">
                                 <Logo/>
                             </a>
                         </div>

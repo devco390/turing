@@ -199,7 +199,7 @@ const Index = () => {
         <title>Zombiz</title>
       </Head>
 
-      <Home />
+      <div id="home"></div>
       <Menu />
       <HeaderSliderArea />
       <WeDo />

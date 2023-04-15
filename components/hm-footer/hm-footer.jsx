@@ -10,7 +10,7 @@ const HMFooter = () => {
                 <div className="hm-footer-widget">
                   <div className="hm-foot-title ">
                     <div className="logo">
-                      <a href="index.html">
+                      <a href="#home">
                         <Logo/>
                       </a>
                     </div>

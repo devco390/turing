@@ -17,7 +17,7 @@ const HeaderSliderArea = () => {
                                 <div className="row">
                                     <div className="col-sm-12">
                                         <div className="single-slide-item-content">
-                                            <h2>Consult Your <br /> Business With Us</h2>
+                                            <h2>Mantenimiento <br />y reparación de computadores </h2>
                                             <p>
                                                 We are the unique Consultancy Farm for your business solution, That is ready to take challenge and knockout your business problems.
                                             </p>
@@ -41,7 +41,7 @@ const HeaderSliderArea = () => {
                                     <div className="col-sm-12">
                                         <div className="single-slide-item-content">
                                             <h2>
-                                                Consult Your <br /> Business
+                                                Instalación <br />de programas
                                             </h2>
                                             <p>
                                                 We are the unique Consultancy Farm for your business solution, That is ready to take challenge and knockout your business problems.

@@ -30,7 +30,7 @@ const Blog = () => {
                                             </a>
                                         </h3>
                                         <p className="news-meta">
-                                            Posted By:  <span>Mick Steven</span>  //  On <span>12th June, 2017</span>
+                                            Posted By:  <span>Mick Steven</span> On <span>12th June, 2017</span>
                                         </p>
 
                                     </div>
@@ -51,11 +51,11 @@ const Blog = () => {
                                     <div className="news-box-inner">
                                         <h3>
                                             <a href="blog_single.html">
-                                                8 Secrets for Your successful Business Mentor Won't Tell You
+                                                8 Secrets for Your successful Business Mentor Wont Tell You
                                             </a>
                                         </h3>
                                         <p className="news-meta">
-                                            Posted By:  <span>Mick Steven</span>  //  On <span>12th June, 2017</span>
+                                            Posted By:  <span>Mick Steven</span> On <span>12th June, 2017</span>
                                         </p>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ const Blog = () => {
                                             </a>
                                         </h3>
                                         <p className="news-meta">
-                                            Posted By:  <span>Mick Steven</span>  //  On <span>12th June, 2017</span>
+                                            Posted By:  <span>Mick Steven</span> On <span>12th June, 2017</span>
                                         </p>
 
                                     </div>

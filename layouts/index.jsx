@@ -16,6 +16,7 @@ import Contact from '../components/contact/contact'
 import NewProject from '../components/new-project/new-project'
 import HMFooter from '../components/hm-footer/hm-footer'
 import FooterCopyright from '../components/footer-copyright/footer-copyright'
+import Loading from '../components/loading/loading'
 
 const Layout = () => {
 
@@ -206,6 +207,8 @@ const Layout = () => {
             <NewProject />
             <HMFooter />
             <FooterCopyright />
+
+            <Loading/>
 
 
             <script src="assets/js/jquery.js"></script>

@@ -271,7 +271,7 @@ body {
 	position: relative;
 	display: inline-block;
 	background: rgba(var(--primary-color-rgb), 1);
-	height: 105px !important;
+	height: 101px !important;
 	transition: transform 0.5s ease-in-out;
 }
 
@@ -284,7 +284,6 @@ body {
 	justify-content: center;
 	min-height: 48px;
 	min-width: 100%;
-	transform: translateY(4px);
 	width: 100%;
 }
 
@@ -2669,7 +2668,7 @@ a:active.learn-btn {
 	font-size: 38px;
 	line-height: 38px;
 	color: #ffffff;
-	margin-bottom: 0.25rem;
+	padding-bottom: 0.25rem;
 	height: auto;
 }
 

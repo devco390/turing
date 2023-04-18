@@ -10,7 +10,7 @@ export default function Document() {
 
                 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
 
-                <link rel="shortcut icon" type="image/icon" href="assets/images/logo/favicon.png" />
+                <link rel="shortcut icon" type="image/icon" href="favicon.png" />
 
                 <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 

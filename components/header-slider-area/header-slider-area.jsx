@@ -1,6 +1,39 @@
 const HeaderSliderArea = () => {
+
+    const data = {
+        title: ' Mantenimiento de Computadoras',
+        subtitle: 'en su casa u oficina',
+        cards: [
+            {
+                id: 1,
+                title: 'Mantenimiento y reparación',
+                active: true
+            },
+            {
+                id: 2,
+                title: 'Instalación <br />de programas',
+                active: false
+            }
+        ],
+        buttonTitle: '¡Llama Ahora!',
+    }
+
     return (
         <section className="header-slider-area">
+            <div className="tanjiro">
+                <div className="container">
+                    <h1 className="tanjiro__title">{data.title}</h1>
+                </div>
+            </div>
+
+            <div className="tanjiro tanjiro__button">
+                <div className="container">
+                    <button type="button" className="slide-btn">
+                        {data.buttonTitle}
+                    </button>
+                </div>
+            </div>
+
             <div id="carousel-example-generic" className="carousel slide carousel-fade" data-ride="carousel">
 
 
@@ -11,55 +44,26 @@ const HeaderSliderArea = () => {
 
 
                 <div className="carousel-inner" role="listbox">
-                    <div className="item active">
-                        <div className="single-slide-item slide-1">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-sm-12">
-                                        <div className="single-slide-item-content">
-                                            <h2>Mantenimiento <br />y reparación de computadores </h2>
-                                            <p>
-                                                We are the unique Consultancy Farm for your business solution, That is ready to take challenge and knockout your business problems.
-                                            </p>
-                                            <button type="button" className="slide-btn">
-                                                get started
-                                            </button>
-                                            <button type="button" className="slide-btn">
-                                                explore more
-                                            </button>
-
+                    {
+                        data.cards.map(({ id, title, active }) => {
+                            const activeClass = active ? 'active' : '';
+                            return (
+                                <div className={`item ${activeClass}`}>
+                                    <div className={`single-slide-item slide-${id}`}>
+                                        <div className="container">
+                                            <div className="row">
+                                                <div className="col-sm-12">
+                                                    <div className="single-slide-item-content">
+                                                        <h2 dangerouslySetInnerHTML={{ __html: title }} />
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <div className="single-slide-item slide-2">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-sm-12">
-                                        <div className="single-slide-item-content">
-                                            <h2>
-                                                Instalación <br />de programas
-                                            </h2>
-                                            <p>
-                                                We are the unique Consultancy Farm for your business solution, That is ready to take challenge and knockout your business problems.
-                                            </p>
-                                            <button type="button" className="slide-btn">
-                                                get started
-                                            </button>
-                                            <button type="button" className="slide-btn
-											">
-                                                explore more
-                                            </button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                            )
+                        })
+                    }
                 </div>
 
 

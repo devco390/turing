@@ -519,6 +519,7 @@ a.call-to-action:hover {
 	font-family: 'Comfortaa';
 	font-weight: 600;
 	text-transform: capitalize;
+	min-height: 116px;
 }
 
 .single-slide-item p {
@@ -532,7 +533,10 @@ a.call-to-action:hover {
 
 .single-slide-item button.slide-btn,
 .single-slide-item button:active .slide-btn,
-.single-slide-item button:focus .slide-btn {
+.single-slide-item button:focus .slide-btn,
+.tanjiro__button button.slide-btn,
+.tanjiro__button button:active .slide-btn,
+.tanjiro__button button:focus .slide-btn {
 	display: inline-block;
 	background: #f5f5fb;
 	padding: 17px 50px;
@@ -587,6 +591,10 @@ a.call-to-action:hover {
 .single-slide-item-img img {
 	width: auto;
 	height: 705px;
+}
+
+.single-slide-item-content {
+	margin-top: 6rem;
 }
 
 /* .single-slide-item */
@@ -2677,4 +2685,29 @@ a:active.learn-btn {
 	color: #ffffff;
 	display: flex;
 	justify-content: flex-end;
+}
+
+
+/*===============================
+    Hero
+===============================*/
+
+.tanjiro {
+	position: absolute;
+	top: 103px;
+	z-index: 20;
+	width: 100%;
+}
+
+.tanjiro.tanjiro__button {
+	bottom: 22rem;
+	top: unset;
+}
+
+.tanjiro h1 {
+	color: #ffffff;
+}
+
+h1.tanjiro__title {
+	text-transform: none;
 }

@@ -2,8 +2,8 @@ import Logo from '../logo'
 
 const Loading = () => {
     return (
-        <section className="loader your-class">
-            <div className="ps-logo">
+        <section className="loader">
+            <div className="loader-logo">
                 <Logo />
             </div>
 

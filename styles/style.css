@@ -516,7 +516,7 @@ a.call-to-action:hover {
 	font-weight: 500;
 	line-height: 1.28;
 	margin-bottom: 27px;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa';
 	font-weight: 600;
 	text-transform: capitalize;
 }
@@ -2650,7 +2650,7 @@ a:active.learn-btn {
 .logo {
 	display: flex;
 	flex-direction: column;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa';
 	font-weight: 700;
 	width: 125px;
 	max-width: 125px;

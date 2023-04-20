@@ -1,13 +1,3 @@
-.your-class {
-    background-color: var(--primary-color);
-}
-
-.your-class {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .loader {
     width: 100%;
     height: 100%;
@@ -19,13 +9,16 @@
     z-index: 1000;
     top: 0;
     left: 0;
-
+    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     animation: loader 6s ease-in-out forwards;
 
 
 }
 
-.loader .ps-logo {
+.loader .loader-logo {
     opacity: 0;
     animation: final 1s forwards;
     position: fixed;
@@ -170,14 +163,6 @@
 .progress .progress-bar {
     display: block;
     height: 100%;
-    /* background: linear-gradient(90deg,
-            rgb(0 255 255 / 80%),
-            rgb(255 0 255 / 80%) 17%,
-            rgb(255 255 0 / 80%) 34%,
-            rgb(0 255 255 / 80%) 51%,
-            rgb(255 0 255 / 80%) 68%,
-            rgb(255 255 0 / 80%) 85%,
-            rgb(255 255 0 / 80%)); */
     background: var(--primary-color-light);
     background-size: 300% 100%;
     animation: progress-animation 6s linear infinite,

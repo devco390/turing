@@ -51,7 +51,7 @@ const HeaderSliderArea = () => {
                         data.cards.map(({ id, title, active }) => {
                             const activeClass = active ? 'active' : '';
                             return (
-                                <div className={`item ${activeClass}`}>
+                                <div key={id} className={`item ${activeClass}`}>
                                     <div className={`single-slide-item slide-${id}`}>
                                         <div className="container">
                                             <div className="row">

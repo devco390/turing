@@ -8,9 +8,9 @@ const Brands = () => {
     return (
         <div className={styles.brands}>
             {
-                brands.map((brand) => {
+                brands.map((brand, index) => {
                     return (
-                        <div className={styles.brand}>
+                        <div className={styles.brand} key={index}>
                             <i className={`${styles.icon} ${styles[`icon__${brand}`]}`} ></i>
                         </div>
                     )

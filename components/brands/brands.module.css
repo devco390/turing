@@ -1,0 +1,51 @@
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brand {
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+}
+
+.icon__apple {
+    background: url(/assets/svg/apple.svg) no-repeat 50%;
+    background-size: 50%;
+    height: 41px;
+}
+
+.icon__microsoft {
+    background: url(/assets/svg/microsoft.svg) no-repeat 50%;
+    background-size: 50%;
+}
+
+.icon__hp {
+    background: url(/assets/svg/hp.svg) no-repeat 50%;
+    background-size: 50%;
+}
+
+.icon__lenovo {
+    background: url(/assets/svg/lenovo.svg) no-repeat 50%;
+    background-size: 100%;
+}
+
+.icon__asus {
+    background: url(/assets/svg/asus.svg) no-repeat 50%;
+    background-size: 100%;
+}
+
+.icon__dell {
+    background: url(/assets/svg/dell.svg) no-repeat 50%;
+    background-size: 55%;
+    height: 33px;
+}

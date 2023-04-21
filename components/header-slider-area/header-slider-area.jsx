@@ -1,3 +1,5 @@
+import Brands from '../brands'
+
 const HeaderSliderArea = () => {
 
     const data = {
@@ -20,17 +22,18 @@ const HeaderSliderArea = () => {
 
     return (
         <section className="header-slider-area">
-            <div className="tanjiro">
+            <div className="hero">
                 <div className="container">
-                    <h1 className="tanjiro__title">{data.title}</h1>
+                    <h1 className="hero__title">{data.title}</h1>
                 </div>
             </div>
 
-            <div className="tanjiro tanjiro__button">
+            <div className="hero hero__button">
                 <div className="container">
                     <button type="button" className="slide-btn">
                         {data.buttonTitle}
                     </button>
+                    <Brands />
                 </div>
             </div>
 
@@ -65,7 +68,6 @@ const HeaderSliderArea = () => {
                         })
                     }
                 </div>
-
 
                 <a className="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                     <span className="lnr lnr-chevron-left"></span>

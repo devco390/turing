@@ -512,7 +512,7 @@ a.call-to-action:hover {
 
 .single-slide-item h2 {
 	color: #fff;
-	font-size: 22px !important;
+	font-size: 21px !important;
 	font-weight: 600;
 	line-height: 1.28;
 	margin-bottom: 27px;
@@ -538,7 +538,7 @@ a.call-to-action:hover {
 .hero__button button:focus .slide-btn {
 	display: inline-block;
 	background: #f5f5fb;
-	padding: 17px 50px;
+	padding: 15px 40px;
 	color: var(--primary-color-dark);
 	border: 1px solid #f5f5fb;
 	font-size: 16px;
@@ -2700,6 +2700,7 @@ a:active.learn-btn {
 
 .hero.hero__button {
 	top: 387px;
+	font-family: 'Lato', sans-serif;
 }
 
 .hero h1 {

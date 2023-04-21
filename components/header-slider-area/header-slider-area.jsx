@@ -17,7 +17,7 @@ const HeaderSliderArea = () => {
                 active: false
             }
         ],
-        buttonTitle: '¡Llama Ahora!',
+        buttonTitle: 'Llama Ahora',
     }
 
     return (

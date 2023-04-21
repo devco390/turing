@@ -329,6 +329,7 @@ a.call-to-action:hover {
 	color: #ffffff;
 	padding-left: .5rem;
 	font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 }
 
 .call-to-action:hover .call-to-action__circle,

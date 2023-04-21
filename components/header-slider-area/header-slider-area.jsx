@@ -13,7 +13,7 @@ const HeaderSliderArea = () => {
             },
             {
                 id: 2,
-                title: 'Instalación <br />de programas',
+                title: 'Instalación de programas',
                 active: false
             }
         ],
@@ -24,7 +24,7 @@ const HeaderSliderArea = () => {
         <section className="header-slider-area">
             <div className="hero">
                 <div className="container">
-                    <h1 className="hero__title">{data.title}</h1>
+                    <h1 className="hero__title" >{data.title}</h1>
                 </div>
             </div>
 
@@ -57,7 +57,7 @@ const HeaderSliderArea = () => {
                                             <div className="row">
                                                 <div className="col-sm-12">
                                                     <div className="single-slide-item-content">
-                                                        <h2 dangerouslySetInnerHTML={{ __html: title }} />
+                                                        <h2 >{title}</h2>
                                                     </div>
                                                 </div>
                                             </div>

@@ -512,12 +512,11 @@ a.call-to-action:hover {
 
 .single-slide-item h2 {
 	color: #fff;
-	font-size: 70px;
-	font-weight: 500;
+	font-size: 22px !important;
+	font-weight: 600;
 	line-height: 1.28;
 	margin-bottom: 27px;
-	font-family: 'Comfortaa';
-	font-weight: 600;
+	font-family: 'Playfair Display', serif;
 	text-transform: capitalize;
 	min-height: 116px;
 }
@@ -2709,4 +2708,7 @@ a:active.learn-btn {
 
 h1.hero__title {
 	text-transform: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px !important;
+	font-weight: 500;
 }

@@ -3,8 +3,11 @@ import Brands from '../brands'
 const HeaderSliderArea = () => {
 
     const data = {
-        title: ' Mantenimiento de Computadoras',
-        subtitle: 'en su casa u oficina',
+        title: ' Mantenimiento de Computadores',
+        list: {
+            title: 'Te ayudamos a:',
+            items: ['Reparar y optimizar tu computador', 'Formatear Windows o Mac', 'Instalar programas', 'Soporte remoto']
+        },
         cards: [
             {
                 id: 1,
@@ -24,13 +27,13 @@ const HeaderSliderArea = () => {
         <section className="header-slider-area">
             <div className="hero">
                 <div className="container">
-                    <h1 className="hero__title" >{data.title}</h1>
-                    {/* Te ayudamos... */}
+                    <h1 className="hero__title">{data.title}</h1>
+                    <h3 className="hero__list--title">{data.list.title}</h3>
                     <ul className="hero__list">
-                        <li>Mantenimiento y reparación</li>
-                        <li>Instalación de programas</li>
-                        <li>Mejoramos tu computador</li>
-                        <li>Soporte remoto</li>
+                        {data.list.items.map((item, index) => {
+                            return <li key={index}>{item}</li>
+                        })
+                        }
                     </ul>
                     <div className="container hero__button">
                         <button type="button" className="slide-btn">

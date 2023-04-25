@@ -547,7 +547,7 @@ a.call-to-action:hover {
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	margin-bottom: 6rem;
+	margin-bottom: 3.5rem;
 	outline: 0;
 	box-shadow: none;
 	-webkit-transition: .5s;
@@ -2698,10 +2698,19 @@ h1.hero__title {
 .hero__list {
 	color: #ffffff;
 	font-size: 18px;
-	padding-top: 2rem;
-	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	font-family: 'Playfair Display', serif;
 }
 
 ul.hero__list li {
 	list-style: inside;
+}
+
+.hero__list--title {
+	color: #ffffff;
+	text-transform: none;
+	font-size: 18px;
+	font-family: 'Playfair Display', serif;
+	padding-top: 3rem;
 }

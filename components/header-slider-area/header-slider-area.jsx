@@ -6,7 +6,7 @@ const HeaderSliderArea = () => {
         title: 'Mantenimiento de <span>computadores</span> a domicilio',
         list: {
             title: 'Te ayudamos a:',
-            items: ['Reparar y optimizar tu computador', 'Formatear Windows o Mac', 'Instalar programas', 'Soporte remoto']
+            items: ['Reparar y optimizar tu computador', 'Mantenimiento preventivo', 'Formatear Windows o Mac', 'Instalar programas']
         },
         cards: [
             {

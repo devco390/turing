@@ -3,7 +3,7 @@ import Brands from '../brands'
 const HeaderSliderArea = () => {
 
     const data = {
-        title: ' Mantenimiento de Computadores',
+        title: 'Mantenimiento de <span>computadores</span> a domicilio',
         list: {
             title: 'Te ayudamos a:',
             items: ['Reparar y optimizar tu computador', 'Formatear Windows o Mac', 'Instalar programas', 'Soporte remoto']
@@ -27,7 +27,7 @@ const HeaderSliderArea = () => {
         <section className="header-slider-area">
             <div className="hero">
                 <div className="container">
-                    <h1 className="hero__title">{data.title}</h1>
+                    <h1 className="hero__title" dangerouslySetInnerHTML={{ __html: data.title }} />
                     <h3 className="hero__list--title">{data.list.title}</h3>
                     <ul className="hero__list">
                         {data.list.items.map((item, index) => {

@@ -2692,7 +2692,9 @@ h1.hero__title {
 	text-transform: none;
 	font-family: 'Playfair Display', serif;
 	font-size: 30px !important;
-	font-weight: 500;
+	font-weight: 700;
+	line-height: 1.28;
+	text-align: center;
 }
 
 .hero__list {

@@ -2706,7 +2706,45 @@ h1.hero__title {
 }
 
 ul.hero__list li {
-	list-style: inside;
+	list-style: none;
+}
+
+ul.hero__list {
+	list-style: none;
+}
+
+ul.hero__list>li::before {
+	content: "";
+	transform: scale(0.2);
+	height: 16px;
+	width: 16px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+	animation: pulse infinite alternate 0.9s;
+	margin-right: 0.5rem;
+}
+
+ul.hero__list>li:nth-child(1)::before {
+	animation-delay: -0.2s;
+}
+
+ul.hero__list>li:nth-child(2)::before {
+	animation-delay: -0.4s;
+}
+
+ul.hero__list>li:nth-child(3)::before {
+	animation-delay: -0.6s;
+}
+
+ul.hero__list>li:nth-child(4)::before {
+	animation-delay: -0.8s;
+}
+
+@keyframes pulse {
+	to {
+		transform: scale(0.69);
+	}
 }
 
 .hero__list--title {
@@ -2716,4 +2754,14 @@ ul.hero__list li {
 	font-family: 'Poppins', sans-serif;
 	padding-top: 3rem;
 	line-height: 1.8;
+	position: relative;
+}
+
+.hero__list--title::before {
+	content: '';
+	position: absolute;
+	height: 4px;
+	width: 20px;
+	background-color: #fff;
+	top: 24px;
 }

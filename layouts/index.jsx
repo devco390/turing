@@ -2,18 +2,11 @@ import { useEffect } from 'react'
 
 import Menu from '../components/menu/menu'
 import HeaderSliderArea from '../components/header-slider-area/header-slider-area'
-import WeDo from '../components/we-do/we-do'
 import About from '../components/about/about'
 import Service from '../components/service/service'
 import Statistics from '../components/statistics/statistics'
 import Project from '../components/project/project'
-import Team from '../components/team/team'
-import Pricing from '../components/pricing/pricing'
-import Testemonial from '../components/testemonial/testemonial'
-import Clients from '../components/clients/clients'
-import Blog from '../components/blog/blog'
 import Contact from '../components/contact/contact'
-import NewProject from '../components/new-project/new-project'
 import HMFooter from '../components/hm-footer/hm-footer'
 import FooterCopyright from '../components/footer-copyright/footer-copyright'
 import Loading from '../components/loading/loading'
@@ -86,32 +79,7 @@ const Layout = ({ data }) => {
                 },
             },
         });
-
-        // ii. .client (carousel)
-
-        $("#client").owlCarousel({
-            items: 5,
-            loop: true,
-            smartSpeed: 1000,
-            autoplay: true,
-            dots: false,
-            autoplayHoverPause: true,
-            responsive: {
-                0: {
-                    items: 2,
-                },
-                415: {
-                    items: 2,
-                },
-                600: {
-                    items: 3,
-                },
-                1000: {
-                    items: 5,
-                },
-            },
-        });
-
+    
         $(".play").on("click", function () {
             owl.trigger("play.owl.autoplay", [1000]);
         });

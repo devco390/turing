@@ -1,23 +1,6 @@
 import Brands from '../brands'
 
-const HeaderSliderArea = () => {
-
-    const data = {
-        why: 'Expertos en tecnología a tu servicio',
-        how: 'Mantenimiento y Reparación de Computadores a Domicilio',
-        what: 'Optimización y Mantenimiento Preventivo, Formateo Windows o Mac, Instalación de Programas',
-        cards: [
-            {
-                id: 1,
-                active: true
-            },
-            {
-                id: 2,
-                active: false
-            }
-        ],
-        buttonTitle: 'Llama Ahora',
-    }
+const HeaderSliderArea = ({ data }) => {
 
     return (
         <section className="header-slider-area">
@@ -28,7 +11,9 @@ const HeaderSliderArea = () => {
                     <p className='hero__what'>{data.what}</p>
                     <div className="container hero__button">
                         <button type="button" className="slide-btn">
-                            {data.buttonTitle}
+                            <a href={data.button.link}>
+                                {data.button.title}
+                            </a>
                         </button>
                         <Brands />
                     </div>

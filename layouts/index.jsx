@@ -18,7 +18,7 @@ import HMFooter from '../components/hm-footer/hm-footer'
 import FooterCopyright from '../components/footer-copyright/footer-copyright'
 import Loading from '../components/loading/loading'
 
-const Layout = () => {
+const Layout = ({ data }) => {
 
     useEffect(() => {
         // 1. Scroll To Top
@@ -191,8 +191,8 @@ const Layout = () => {
     return (
         <>
             <div id="home"></div>
-            <Menu />
-            <HeaderSliderArea />
+            <Menu callToActions={data.callToActions} />
+            <HeaderSliderArea data={data.headerSliderArea} />
             <WeDo />
             <About />
             <Service />
@@ -208,7 +208,7 @@ const Layout = () => {
             <HMFooter />
             <FooterCopyright />
 
-            <Loading/>
+            <Loading />
 
 
             <script src="assets/js/jquery.js"></script>

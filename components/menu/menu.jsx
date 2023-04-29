@@ -1,7 +1,7 @@
 import Logo from '../logo'
 import CalltoAction from '../call-to-actions/call-to-action'
 
-const Menu = () => {
+const Menu = ({ callToActions }) => {
     return (
         <section id="menu">
             <div className="container">
@@ -17,7 +17,7 @@ const Menu = () => {
                                 <span className="icon-bar"></span>
                             </button>
                             <a href="#home">
-                                <Logo/>
+                                <Logo />
                             </a>
                         </div>
 
@@ -51,7 +51,7 @@ const Menu = () => {
                 </div>
             </div>
 
-            <CalltoAction />
+            <CalltoAction data={callToActions} />
 
         </section>
     )

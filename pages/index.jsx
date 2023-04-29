@@ -14,7 +14,7 @@ const Index = () => {
         <title>{data.title}</title>
       </Head>
 
-      <Layout />
+      <Layout data={data} />
 
     </div>
   )

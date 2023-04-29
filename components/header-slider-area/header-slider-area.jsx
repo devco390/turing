@@ -3,20 +3,16 @@ import Brands from '../brands'
 const HeaderSliderArea = () => {
 
     const data = {
-        title: 'Mantenimiento de <span>computadores</span> a domicilio',
-        list: {
-            title: 'Te ayudamos a:',
-            items: ['Reparar y optimizar tu computador', 'Mantenimiento preventivo', 'Formatear Windows o Mac', 'Instalar programas']
-        },
+        why: 'Expertos en tecnología a tu servicio',
+        how: 'Mantenimiento y Reparación de Computadores a Domicilio',
+        what: 'Optimización y Mantenimiento Preventivo, Formateo Windows o Mac, Instalación de Programas',
         cards: [
             {
                 id: 1,
-                title: 'Mantenimiento y reparación',
                 active: true
             },
             {
                 id: 2,
-                title: 'Instalación de programas',
                 active: false
             }
         ],
@@ -27,14 +23,9 @@ const HeaderSliderArea = () => {
         <section className="header-slider-area">
             <div className="hero">
                 <div className="container">
-                    <h1 className="hero__title" dangerouslySetInnerHTML={{ __html: data.title }} />
-                    <h3 className="hero__list--title">{data.list.title}</h3>
-                    <ul className="hero__list">
-                        {data.list.items.map((item, index) => {
-                            return <li key={index}>{item}</li>
-                        })
-                        }
-                    </ul>
+                    <h3 className='hero__why'>{data.why}</h3>
+                    <h1 className='hero__how'>{data.how}</h1>
+                    <p className='hero__what'>{data.what}</p>
                     <div className="container hero__button">
                         <button type="button" className="slide-btn">
                             {data.buttonTitle}

@@ -2700,6 +2700,7 @@ a:active.learn-btn {
 	margin: 0 auto 10px;
 	line-height: 1.4;
 	max-width: 256px;
+	font-family: Montserrat, Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 .hero__how {
@@ -2710,6 +2711,7 @@ a:active.learn-btn {
 	line-height: 1.1;
 	margin: 0 auto 10px;
 	text-transform: none;
+	font-family: Montserrat, Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 .hero__what {
@@ -2718,4 +2720,5 @@ a:active.learn-btn {
 	max-width: 450px;
 	margin: 1rem auto 1rem;
 	font-weight: 700;
+	font-family: Montserrat, Arial, Helvetica Neue, Helvetica, sans-serif;
 }

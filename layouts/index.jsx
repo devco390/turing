@@ -191,20 +191,13 @@ const Layout = ({ data }) => {
     return (
         <>
             <div id="home"></div>
-            <Menu callToActions={data.callToActions} />
+            <Menu data={data.menu} callToActions={data.callToActions} />
             <HeaderSliderArea data={data.headerSliderArea} />
-            <WeDo />
             <About />
             <Service />
             <Statistics />
             <Project />
-            <Team />
-            <Pricing />
-            <Testemonial />
-            <Clients />
-            <Blog />
             <Contact />
-            <NewProject />
             <HMFooter />
             <FooterCopyright />
 

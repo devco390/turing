@@ -1,7 +1,7 @@
 import Logo from '../logo'
 import CalltoAction from '../call-to-actions/call-to-action'
 
-const Menu = ({ callToActions }) => {
+const Menu = ({ data, callToActions }) => {
     return (
         <section id="menu">
             <div className="container">
@@ -23,28 +23,10 @@ const Menu = ({ callToActions }) => {
 
                         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul className="nav navbar-nav navbar-right">
-                                <li className="smooth-menu">
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li className="smooth-menu"><a href="#about">About</a></li>
-                                <li className="smooth-menu"><a href="#service">Service</a></li>
-                                <li className="smooth-menu"><a href="#project">Project</a></li>
-                                <li className="smooth-menu"><a href="#team">Team</a></li>
-                                <li className="smooth-menu"><a href="#blog">Blog</a></li>
-                                <li className="smooth-menu"><a href="#contact">Contact</a></li>
-                                <li>
-                                    <a href="#">
-                                        <span className="lnr lnr-cart"></span>
-                                    </a>
-                                </li>
-                                <li className="search">
-                                    <form action="">
-                                        <input type="text" name="search" placeholder="Search...." />
-                                        <a href="#">
-                                            <span className="lnr lnr-magnifier"></span>
-                                        </a>
-                                    </form>
-                                </li>
+                                {data.items.map((item, index) => {
+                                    return <li key={index} className="smooth-menu"><a href={item.link}>{item.text}</a></li>
+                                })
+                                }
                             </ul>
                         </div>
                     </nav>

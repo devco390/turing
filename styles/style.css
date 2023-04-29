@@ -271,7 +271,7 @@ body {
 	position: relative;
 	display: inline-block;
 	background: rgba(var(--primary-color-rgb), 1);
-	height: 101px !important;
+	height: 80px !important;
 	transition: transform 0.5s ease-in-out;
 }
 
@@ -285,9 +285,6 @@ body {
 	min-height: 48px;
 	min-width: 100%;
 	width: 100%;
-}
-
-.wrapper-sticky.sticky-active .call-to-actions {
 	transform: translateY(-16px);
 }
 
@@ -362,36 +359,16 @@ a.call-to-action:hover {
 }
 
 /* sticky */
-.sticky {
+#menu {
 	background: rgba(var(--primary-color-rgb), 1);
 	padding: 10px 0px 0px;
 	height: 80px;
 	color: #fff;
 }
 
-.sticky .navbar-brand {
+#menu .navbar-brand {
 	margin-top: 20px;
 }
-
-.sticky .navbar-default .navbar-nav li a,
-.sticky .navbar-default .navbar-nav li a:active,
-.sticky .navbar-default .navbar-nav li a:focus,
-.sticky .navbar-default .navbar-nav li a:hover {
-	color: #fff;
-	margin: 0px 0px;
-}
-
-.sticky .navbar-default .navbar-toggle,
-.sticky .navbar-default .navbar-toggle:focus,
-.sticky .navbar-default .navbar-toggle:hover {
-	background-color: transparent;
-	border: 1px solid #000;
-	margin-top: 15px;
-}
-
-/* sticky */
-
-/* wrapper-sticky */
 
 /* navbar-default */
 .navbar-default {
@@ -419,7 +396,7 @@ a.call-to-action:hover {
 	outline: 0;
 	font-weight: 700;
 	margin-top: 18px;
-	padding-bottom: 25px;
+	padding-bottom: 0;
 	padding-left: 27px;
 
 }
@@ -433,7 +410,7 @@ a.call-to-action:hover {
 	font-weight: 700;
 	font-family: 'Lato', sans-serif;
 	margin-top: 18px;
-	padding-bottom: 25px;
+	padding-bottom: 0;
 	padding-left: 27px;
 }
 
@@ -445,7 +422,7 @@ a.call-to-action:hover {
 .navbar-default .navbar-toggle:hover {
 	background-color: transparent;
 	border: 1px solid #000;
-	margin-top: 25px;
+	margin-top: 14px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -794,7 +771,7 @@ a.call-to-action:hover {
 --------------------------------------*/
 .about-us {
 	background: #f9faff;
-	padding: 120px 0 175px;
+	padding: 0 0 175px;
 }
 
 .about-us-txt {
@@ -2646,7 +2623,7 @@ a:active.learn-btn {
 	padding-top: 1.5rem;
 }
 
-.wrapper-sticky.sticky-active .logo {
+.wrapper-sticky .logo {
 	padding-top: 0;
 }
 
@@ -2759,5 +2736,12 @@ a:active.learn-btn {
 		text-align: center;
 		font-size: 19px;
 		max-width: 700px;
+	}
+
+	.navbar-default .navbar-nav li a,
+	.navbar-default .navbar-nav li a:active,
+	.navbar-default .navbar-nav li a:focus,
+	.navbar-default .navbar-nav li a:hover {
+		padding-top: 0;
 	}
 }

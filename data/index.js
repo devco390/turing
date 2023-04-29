@@ -6,6 +6,15 @@ const linkCall = `tel:${phone}`
 
 const data = {
     title: 'Mantenimiento y reparación de computadores a domicilio',
+    menu: {
+        items: [
+            { link: '#home', text: 'Inicio' },
+            { link: '#about', text: 'Sobre nosotros' },
+            { link: '#service', text: 'Servicios' },
+            { link: '#project', text: 'Galería' },
+            { link: '#contact', text: 'Contáctenos' },
+        ]
+    },
     headerSliderArea: {
         why: 'Expertos en tecnología a tu servicio',
         how: 'Mantenimiento y Reparación de Computadores a Domicilio',

@@ -581,7 +581,7 @@ a.call-to-action:hover {
 
 .single-slide-item.slide-1:before,
 .single-slide-item.slide-2:before {
-	background: rgba(var(--primary-color-rgb), .6);
+	background: rgba(var(--primary-color-rgb), .7);
 	position: absolute;
 	left: 0;
 	top: 0;

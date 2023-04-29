@@ -2739,6 +2739,10 @@ a:active.learn-btn {
 }
 
 @media (min-width: 1050px) {
+	.hero {
+		top: 118px;
+	}
+
 	.hero__why {
 		text-align: center;
 		font-size: 19px;
@@ -2756,5 +2760,4 @@ a:active.learn-btn {
 		font-size: 19px;
 		max-width: 700px;
 	}
-
 }

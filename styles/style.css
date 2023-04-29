@@ -565,6 +565,7 @@ a.call-to-action:hover {
 
 .single-slide-item {
 	height: calc(100vh - 100px);
+	min-height: 700px;
 }
 
 .single-slide-item.slide-1 {

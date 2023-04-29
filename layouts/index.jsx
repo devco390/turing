@@ -208,7 +208,7 @@ const Layout = () => {
             <HMFooter />
             <FooterCopyright />
 
-            {/* <Loading/> */}
+            <Loading/>
 
 
             <script src="assets/js/jquery.js"></script>

@@ -318,7 +318,9 @@ body {
 	height: 24px;
 }
 
-a.call-to-action:hover {
+a.call-to-action:hover,
+a.call-to-action:active,
+a.call-to-action:focus {
 	display: flex;
 }
 

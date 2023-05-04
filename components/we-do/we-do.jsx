@@ -14,7 +14,7 @@ const WeDo = ({ data }) => {
                             {
                                 items.map((item) => {
                                     return (
-                                        <div className="col-sm-3 col-xs-12">
+                                        <div className="col-sm-3 col-xs-12" key={item.id}>
                                             <div className="single-we-do-box text-center">
                                                 <div className="we-do-description">
                                                     <div className="we-do-info">

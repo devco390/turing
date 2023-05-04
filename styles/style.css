@@ -724,6 +724,15 @@ a.call-to-action:focus {
 	-ms-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
+	min-height: 96px;
+}
+
+.we-do-img img {
+	width: 100px;
+}
+
+.we-do-img img.we-do-img-support {
+	width: 90px;
 }
 
 .we-do-topics {
@@ -2745,5 +2754,12 @@ a:active.learn-btn {
 	.navbar-default .navbar-nav li a:focus,
 	.navbar-default .navbar-nav li a:hover {
 		padding-top: 0;
+	}
+
+	.single-we-do-box {
+		background: #fff;
+		min-height: 450px;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }

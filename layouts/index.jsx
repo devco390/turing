@@ -2,8 +2,7 @@ import { useEffect } from 'react'
 
 import Menu from '../components/menu/menu'
 import HeaderSliderArea from '../components/header-slider-area/header-slider-area'
-import About from '../components/about/about'
-import Service from '../components/service/service'
+import WeDo from '../components/we-do/we-do'
 import Statistics from '../components/statistics/statistics'
 import Project from '../components/project/project'
 import Contact from '../components/contact/contact'
@@ -79,7 +78,7 @@ const Layout = ({ data }) => {
                 },
             },
         });
-    
+
         $(".play").on("click", function () {
             owl.trigger("play.owl.autoplay", [1000]);
         });
@@ -161,8 +160,7 @@ const Layout = ({ data }) => {
             <div id="home"></div>
             <Menu data={data.menu} callToActions={data.callToActions} />
             <HeaderSliderArea data={data.headerSliderArea} />
-            <About />
-            <Service />
+            <WeDo data={data.weDo} />
             <Statistics />
             <Project />
             <Contact />

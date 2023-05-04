@@ -43,6 +43,36 @@ const data = {
             title: 'Atención en Línea',
             link: `${whatsappBAseUrl}/${phoneWhatsapp}`
         }
+    },
+    weDo: {
+        title: 'Sobre nosotros',
+        description: `Somos un equipo de especialistas en tecnología comprometidos con brindar el mejor servicio de mantenimiento de computadores a domicilio en Bogotá. Valoramos la satisfacción del cliente y ofrecemos soluciones personalizadas adaptadas a sus necesidades.`,
+        items: [
+            {
+                id: 'repair',
+                title: 'Mantenimiento y reparación',
+                description: 'Te ayudamos con la reparación de tu computador o evita fallos con nuestros mantenimientos preventivos.',
+                imageUrl: '/assets/svg/repair.svg'
+            },
+            {
+                id: 'install',
+                title: 'Instalación de programas',
+                description: 'Deja en manos de nuestros profesionales la instalación de tus programas de diseño, Office y antivirus; para que puedas enfocarte en tu trabajo.',
+                imageUrl: '/assets/svg/install.svg'
+            },
+            {
+                id: 'optimization',
+                title: 'Optimización de computadores',
+                description: '¿Cansado de una computadora lenta? Acelera tu equipo con nuestra optimización especializada.',
+                imageUrl: '/assets/svg/optimization.svg'
+            },
+            {
+                id: 'support',
+                title: 'Soporte remoto',
+                description: 'Solucionamos tus problemas desde cualquier lugar con nuestro servicio de soporte remoto.',
+                imageUrl: '/assets/svg/support.svg'
+            }
+        ]
     }
 }
 

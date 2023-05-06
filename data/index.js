@@ -73,6 +73,24 @@ const data = {
                 imageUrl: '/assets/svg/support.svg'
             }
         ]
+    },
+    statistics: {
+        daysWorked: {
+            count: 2556,
+            text: 'Días trabajados'
+        },
+        projectFinished: {
+            count: 326,
+            text: 'Proyectos finalizados'
+        },
+        coffeeCup: {
+            count: 1526,
+            text: 'Tazas de café'
+        },
+        clientSitisfied: {
+            count: 856,
+            text: 'Clientes satisfechos'
+        }
     }
 }
 

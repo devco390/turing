@@ -161,7 +161,7 @@ const Layout = ({ data }) => {
             <Menu data={data.menu} callToActions={data.callToActions} />
             <HeaderSliderArea data={data.headerSliderArea} />
             <WeDo data={data.weDo} />
-            <Statistics />
+            <Statistics data={data.statistics} />
             <Project />
             <Contact />
             <HMFooter />

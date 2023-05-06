@@ -1,4 +1,7 @@
-const Statistics = () => {
+const Statistics = ({ data }) => {
+
+    const { daysWorked, projectFinished, coffeeCup, clientSitisfied } = data;
+
     return (
         <section className="statistics">
             <div className="container">
@@ -9,8 +12,8 @@ const Statistics = () => {
                                 <img src="assets/images/counter/counter1.png" alt="counter-icon" />
                             </div>
                             <div className="statistics-content">
-                                <div className="counter">2556</div>
-                                <h3>days worked</h3>
+                                <div className="counter">{daysWorked.count}</div>
+                                <h3>{daysWorked.text}</h3>
                             </div>
                         </div>
                     </div>
@@ -20,8 +23,8 @@ const Statistics = () => {
                                 <img src="assets/images/counter/counter2.png" alt="counter-icon" />
                             </div>
                             <div className="statistics-content">
-                                <div className="counter">326</div>
-                                <h3>project finished</h3>
+                                <div className="counter">{projectFinished.count}</div>
+                                <h3>{projectFinished.text}</h3>
                             </div>
                         </div>
                     </div>
@@ -31,8 +34,8 @@ const Statistics = () => {
                                 <img src="assets/images/counter/counter3.png" alt="counter-icon" />
                             </div>
                             <div className="statistics-content">
-                                <div className="counter">1526</div>
-                                <h3>coffee cup</h3>
+                                <div className="counter">{coffeeCup.count}</div>
+                                <h3>{coffeeCup.text}</h3>
                             </div>
                         </div>
                     </div>
@@ -42,8 +45,8 @@ const Statistics = () => {
                                 <img src="assets/images/counter/counter4.png" alt="counter-icon" />
                             </div>
                             <div className="statistics-content">
-                                <div className="counter">856</div>
-                                <h3>client satisfied</h3>
+                                <div className="counter">{clientSitisfied.count}</div>
+                                <h3>{clientSitisfied.text}</h3>
                             </div>
                         </div>
                     </div>

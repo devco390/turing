@@ -1,8 +1,9 @@
 const phoneFormatted = '319 601 52 11';
 const phone = '3196015211';
 const phoneWhatsapp = '573196015211';
-const whatsappBAseUrl = 'https://wa.me/'
-const linkCall = `tel:${phone}`
+const whatsappBAseUrl = 'https://wa.me/';
+const linkCall = `tel:${phone}`;
+const email = 'comercial@turingcol.com';
 
 const data = {
     title: 'Mantenimiento y reparación de computadores a domicilio',
@@ -114,6 +115,23 @@ const data = {
             url: 'assets/images/project/project5.jpg',
             alt: 'portfolio image'
         },
+    },
+    contact: {
+        title: 'Contáctanos',
+        description: '¡Resuelve hoy tus problemas tecnológicos de manera rápida y eficiente!',
+        contactInfo: 'Información de contacto',
+        address: {
+            title: 'Carrera 14 # 79 28 - oficina 303, Bogotá, Colombia',
+            link: 'https://www.google.com/maps/place/Cra.+14+%23%2379-28,+Bogot%C3%A1/@4.6651519,-74.058919,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a5f748cde5f:0x76fcf58e20ef66b1!8m2!3d4.6651457!4d-74.0567303'
+        },
+        phone: {
+            title: phoneFormatted,
+            link: linkCall
+        },
+        email: {
+            title: email,
+            link: `mailto:${email}`
+        }
     }
 }
 

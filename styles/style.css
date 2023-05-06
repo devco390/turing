@@ -1746,7 +1746,11 @@ a:active.learn-btn {
 	margin-bottom: 50px;
 }
 
-.contact-online-address {
+.contact-online-address,
+.single-online-address a,
+.single-online-address a:hover,
+.single-online-address a:active,
+.single-online-address a:focus {
 	color: #fff;
 	font-size: 14px;
 }

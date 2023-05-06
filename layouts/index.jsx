@@ -163,7 +163,7 @@ const Layout = ({ data }) => {
             <WeDo data={data.weDo} />
             <Statistics data={data.statistics} />
             <Project data={data.gallery} />
-            <Contact />
+            <Contact data={data.contact} />
             <HMFooter />
             <FooterCopyright />
 

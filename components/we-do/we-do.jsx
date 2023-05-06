@@ -23,9 +23,7 @@ const WeDo = ({ data }) => {
                                                         </div>
                                                         <div className="we-do-topics">
                                                             <h2>
-                                                                <a href="#">
-                                                                    {item.title}
-                                                                </a>
+                                                                {item.title}
                                                             </h2>
                                                         </div>
                                                     </div>

@@ -9,7 +9,7 @@ const data = {
     menu: {
         items: [
             { link: '#home', text: 'Inicio' },
-            { link: '#about', text: 'Sobre nosotros' },
+            { link: '#about', text: 'Nuestros servicios' },
             { link: '#service', text: 'Servicios' },
             { link: '#project', text: 'Galería' },
             { link: '#contact', text: 'Contáctenos' },
@@ -45,8 +45,8 @@ const data = {
         }
     },
     weDo: {
-        title: 'Sobre nosotros',
-        description: `Somos un equipo de especialistas en tecnología comprometidos con brindar el mejor servicio de mantenimiento de computadores a domicilio en Bogotá. Valoramos la satisfacción del cliente y ofrecemos soluciones personalizadas adaptadas a sus necesidades.`,
+        title: 'Nuestros servicios',
+        description: `Nos especializamos en el mantenimiento de computadoras a domicilio en Bogotá. con soluciones adaptadas a tus necesidades, gracias a nuestro equipo de expertos en tecnología.`,
         items: [
             {
                 id: 'repair',

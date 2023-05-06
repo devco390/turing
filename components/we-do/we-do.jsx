@@ -2,7 +2,7 @@ const WeDo = ({ data }) => {
     const { title, description, items } = data;
 
     return (
-        <section className="we-do">
+        <section className="we-do" id="about">
             <div className="container">
                 <div className="we-do-details">
                     <div className="section-header text-center">

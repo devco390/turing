@@ -5,16 +5,17 @@ const whatsappBAseUrl = 'https://wa.me/';
 const linkCall = `tel:${phone}`;
 const email = 'comercial@turingcol.com';
 
+const links = [
+    { link: '#home', text: 'Inicio' },
+    { link: '#about', text: 'Nuestros servicios' },
+    { link: '#project', text: 'Galería' },
+    { link: '#contact', text: 'Contáctenos' }
+]
+
 const data = {
     title: 'Mantenimiento y reparación de computadores a domicilio',
     menu: {
-        items: [
-            { link: '#home', text: 'Inicio' },
-            { link: '#about', text: 'Nuestros servicios' },
-            { link: '#service', text: 'Servicios' },
-            { link: '#project', text: 'Galería' },
-            { link: '#contact', text: 'Contáctenos' },
-        ]
+        items: links
     },
     headerSliderArea: {
         why: 'Expertos en tecnología a tu servicio',
@@ -131,6 +132,13 @@ const data = {
         email: {
             title: email,
             link: `mailto:${email}`
+        }
+    },
+    footer: {
+        title: 'Gracias por confiar en nosotros!',
+        usefulLinks: {
+            title: 'Enlaces útiles',
+            links
         }
     }
 }

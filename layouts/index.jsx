@@ -164,7 +164,7 @@ const Layout = ({ data }) => {
             <Statistics data={data.statistics} />
             <Project data={data.gallery} />
             <Contact data={data.contact} />
-            <HMFooter />
+            <HMFooter data={data.footer} />
             <FooterCopyright />
 
             <Loading />

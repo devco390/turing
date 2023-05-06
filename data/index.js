@@ -91,6 +91,29 @@ const data = {
             count: 856,
             text: 'Clientes satisfechos'
         }
+    },
+    gallery: {
+        title: 'Galería',
+        image1: {
+            url: '/assets/images/project/project1.jpg',
+            alt: 'portfolio image'
+        },
+        image2: {
+            url: '/assets/images/project/project2.jpg',
+            alt: 'portfolio image'
+        },
+        image3: {
+            url: 'assets/images/project/project3.jpg',
+            alt: 'portfolio image'
+        },
+        image4: {
+            url: 'assets/images/project/project4.jpg',
+            alt: 'portfolio image'
+        },
+        image5: {
+            url: 'assets/images/project/project5.jpg',
+            alt: 'portfolio image'
+        },
     }
 }
 

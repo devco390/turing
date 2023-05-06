@@ -1,13 +1,13 @@
-const Project = () => {
+const Project = ({ data }) => {
+
+    const { title, image1, image2, image3, image4, image5 } = data;
+
     return (
         <section id="project" className="project">
             <div className="container">
                 <div className="project-details">
                     <div className="project-header text-left">
-                        <h2>Our Finished Projects</h2>
-                        <p>
-                            Pallamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
+                        <h2>{title}</h2>
                     </div>
                     <div className="project-content">
                         <div className="gallery-content">
@@ -15,93 +15,31 @@ const Project = () => {
                                 <div className="row">
                                     <div className=" col-md-4 col-sm-12">
                                         <div className="item big-height">
-                                            <img src="assets/images/project/project1.jpg" alt="portfolio image" />
-                                            <div className="isotope-overlay">
-                                                <a href="project.html">
-                                                    <span className="lnr lnr-link"></span>
-
-                                                </a>
-                                                <h3>
-                                                    <a href="project.html">
-                                                        aquisition plan
-                                                    </a>
-                                                </h3>
-                                                <p>busisness planning</p>
-                                            </div>
+                                            <img src={image1.url} alt={image1.alt} />
                                         </div>
                                     </div>
                                     <div className="col-md-8 col-sm-12">
                                         <div className="row">
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="item">
-                                                    <img src="assets/images/project/project2.jpg" alt="portfolio image" />
-                                                    <div className="isotope-overlay">
-                                                        <a href="project.html">
-                                                            <span className="lnr lnr-link"></span>
-
-                                                        </a>
-                                                        <h3>
-                                                            <a href="project.html">
-                                                                aquisition plan
-                                                            </a>
-                                                        </h3>
-                                                        <p>busisness planning</p>
-                                                    </div>
+                                                    <img src={image2.url} alt={image2.alt} />
                                                 </div>
                                             </div>
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="item">
-                                                    <img src="assets/images/project/project3.jpg" alt="portfolio image" />
-                                                    <div className="isotope-overlay">
-                                                        <a href="project.html">
-                                                            <span className="lnr lnr-link"></span>
-
-                                                        </a>
-                                                        <h3>
-                                                            <a href="project.html">
-                                                                aquisition plan
-                                                            </a>
-                                                        </h3>
-                                                        <p>busisness planning</p>
-                                                    </div>
+                                                    <img src={image3.url} alt={image3.alt} />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="row">
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="item">
-                                                    <img src="assets/images/project/project4.jpg" alt="portfolio image" />
-                                                    <div className="isotope-overlay">
-                                                        <a href="project.html">
-                                                            <span className="lnr lnr-link"></span>
-
-                                                        </a>
-                                                        <h3>
-                                                            <a href="project.html">
-                                                                aquisition plan
-                                                            </a>
-                                                        </h3>
-                                                        <p>busisness planning
-                                                        </p>
-                                                    </div>
+                                                    <img src={image4.url} alt={image4.alt} />
                                                 </div>
                                             </div>
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="item">
-                                                    <img src="assets/images/project/project5.jpg" alt="portfolio image" />
-                                                    <div className="isotope-overlay">
-                                                        <a href="project.html">
-                                                            <span className="lnr lnr-link"></span>
-
-                                                        </a>
-                                                        <h3>
-                                                            <a href="project.html">
-                                                                aquisition plan
-                                                            </a>
-                                                        </h3>
-                                                        <p>busisness planning
-                                                        </p>
-                                                    </div>
+                                                    <img src={image5.url} alt={image5.alt} />
                                                 </div>
                                             </div>
                                         </div>
@@ -112,10 +50,6 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="project-btn text-center">
-                    <a href="project.html" className="project-view">view all
-                    </a>
                 </div>
             </div>
 

@@ -162,7 +162,7 @@ const Layout = ({ data }) => {
             <HeaderSliderArea data={data.headerSliderArea} />
             <WeDo data={data.weDo} />
             <Statistics data={data.statistics} />
-            <Project />
+            <Project data={data.gallery} />
             <Contact />
             <HMFooter />
             <FooterCopyright />

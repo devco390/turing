@@ -3,7 +3,7 @@ const phone = '3196015211';
 const phoneWhatsapp = '573196015211';
 const whatsappBAseUrl = 'https://wa.me/';
 const linkCall = `tel:${phone}`;
-const email = 'comercial@turingcol.com';
+const email = 'turing.soporte@gmail.com';
 
 const links = [
     { link: '#home', text: 'Inicio' },

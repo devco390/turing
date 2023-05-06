@@ -80,7 +80,7 @@
     width: 100%;
     max-width: 260px;
     z-index: 1;
-    font-family: helvetic;
+    font-family: 'Playfair Display', serif;
 }
 
 .loader-text h1 {

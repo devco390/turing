@@ -21,14 +21,14 @@ font-family: 'Lato', sans-serif;
 5. 	About
 6. 	Service
 7. 	Statistics
-8. 	Project
+8. 	gallery
 9. 	Team
 10.	Pricing
 11.	Testimonial
 12. Client
 11.	Testemonial 
 14. Contact
-15. New-project
+15. New-gallery
 16.	Footer
 17.	Footer Copyright
 
@@ -655,7 +655,7 @@ a.call-to-action:focus {
 		4. We-do
 --------------------------------------*/
 .we-do {
-	padding: 115px 0 82px;
+	padding: 140px 0 82px;
 }
 
 /* section-header */
@@ -939,25 +939,25 @@ a:focus.service-btn {
 }
 
 /*-------------------------------------
-		8. Project
+		8. gallery
 --------------------------------------*/
-.project {
-	padding: 117px 0 109px;
+.gallery {
+	padding: 140px 0 109px;
 }
 
-.project-content {
+.gallery-content {
 	margin-top: 62px;
 }
 
-/* project-header  */
-.project-header h2 {
+/* gallery-header  */
+.gallery-header h2 {
 	color: #44454f;
 	font-size: 30px;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 }
 
-.project-header p {
+.gallery-header p {
 	color: #888;
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
@@ -965,7 +965,7 @@ a:focus.service-btn {
 	margin-top: 32px;
 }
 
-/* project-header  */
+/* gallery-header  */
 
 /* clear fix */
 .isotope:after {
@@ -1065,13 +1065,13 @@ a:focus.service-btn {
 
 /*.isotope-overlay*/
 
-/*project-btn*/
-.project-btn {
+/*gallery-btn*/
+.gallery-btn {
 	margin-top: 49px;
 	letter-spacing: 1.2px;
 }
 
-.project-view {
+.gallery-view {
 	background: var(--primary-color);
 	border: 1px solid var(--primary-color);
 	width: 185px;
@@ -1088,12 +1088,12 @@ a:focus.service-btn {
 	transition: 0.5s ease-in-out;
 }
 
-.project-view:hover {
+.gallery-view:hover {
 	color: var(--primary-color);
 	background: transparent;
 }
 
-/*project-btn*/
+/*gallery-btn*/
 
 /*-------------------------------------
 		9. Team
@@ -1108,17 +1108,17 @@ a:focus.service-btn {
 }
 
 /*team-head*/
-.project-header.team-header h2,
-.project-header.team-header p {
+.gallery-header.team-header h2,
+.gallery-header.team-header p {
 	color: #fff;
 }
 
-.project-header.team-header.team-head h2,
-.project-header.team-header.team-head p {
+.gallery-header.team-header.team-head h2,
+.gallery-header.team-header.team-head p {
 	color: #000;
 }
 
-.project-header.team-header.team-head p {
+.gallery-header.team-header.team-head p {
 	margin: 0 auto;
 	margin-top: 32px;
 }
@@ -1347,7 +1347,7 @@ a:active.learn-btn {
 	margin-right: 5px;
 }
 
-.project-btn.pricing-btn a {
+.gallery-btn.pricing-btn a {
 	text-transform: capitalize;
 	color: #fff;
 }
@@ -1357,7 +1357,7 @@ a:active.learn-btn {
 	opacity: 1;
 }
 
-.project-btn.pricing-btn a:hover {
+.gallery-btn.pricing-btn a:hover {
 	color: var(--primary-color);
 }
 
@@ -1602,7 +1602,7 @@ a:active.learn-btn {
 		14. Contact
 --------------------------------------*/
 .contact {
-	padding: 115px 0 120px;
+	padding: 140px 0 120px;
 	background: url(/assets/images/footer/map.jpg)no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1800,14 +1800,14 @@ a:active.learn-btn {
 /* contact-right */
 
 /*-------------------------------------
-		15. New-project
+		15. New-gallery
 --------------------------------------*/
-.new-project {
+.new-gallery {
 	padding: 72px 0 72px;
 	background: var(--primary-color);
 }
 
-.single-new-project h3 {
+.single-new-gallery h3 {
 	color: #fff;
 	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
@@ -1815,9 +1815,9 @@ a:active.learn-btn {
 
 }
 
-.single-new-project a.slide-btn,
-.single-new-project a:active .slide-btn,
-.single-new-project a:focus .slide-btn {
+.single-new-gallery a.slide-btn,
+.single-new-gallery a:active .slide-btn,
+.single-new-gallery a:focus .slide-btn {
 	display: inline-block;
 	padding: 17px 42px;
 	background: transparent;
@@ -1834,7 +1834,7 @@ a:active.learn-btn {
 	transition: .5s;
 }
 
-.single-new-project a.slide-btn:hover {
+.single-new-gallery a.slide-btn:hover {
 	background: #f5f5fb;
 	color: var(--primary-color-dark);
 	border: 1px solid #f5f5fb;

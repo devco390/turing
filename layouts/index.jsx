@@ -4,7 +4,7 @@ import Menu from '../components/menu/menu'
 import HeaderSliderArea from '../components/header-slider-area/header-slider-area'
 import WeDo from '../components/we-do/we-do'
 import Statistics from '../components/statistics/statistics'
-import Project from '../components/project/project'
+import Gallery from '../components/gallery/gallery'
 import Contact from '../components/contact/contact'
 import HMFooter from '../components/hm-footer/hm-footer'
 import FooterCopyright from '../components/footer-copyright/footer-copyright'
@@ -162,7 +162,7 @@ const Layout = ({ data }) => {
             <HeaderSliderArea data={data.headerSliderArea} />
             <WeDo data={data.weDo} />
             <Statistics data={data.statistics} />
-            <Project data={data.gallery} />
+            <Gallery data={data.gallery} />
             <Contact data={data.contact} />
             <HMFooter data={data.footer} />
             <FooterCopyright data={data.footerCopyright} />

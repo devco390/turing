@@ -8,7 +8,7 @@ const email = 'turing.soporte@gmail.com';
 const links = [
     { link: '#home', text: 'Inicio' },
     { link: '#about', text: 'Nuestros servicios' },
-    { link: '#project', text: 'Galería' },
+    { link: '#gallery', text: 'Galería' },
     { link: '#contact', text: 'Contáctanos' }
 ]
 

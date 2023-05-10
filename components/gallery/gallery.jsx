@@ -1,15 +1,15 @@
-const Project = ({ data }) => {
+const Gallery = ({ data }) => {
 
     const { title, image1, image2, image3, image4, image5 } = data;
 
     return (
-        <section id="project" className="project">
+        <section id="gallery" className="gallery">
             <div className="container">
-                <div className="project-details">
-                    <div className="project-header text-left">
+                <div className="gallery-details">
+                    <div className="gallery-header text-left">
                         <h2>{title}</h2>
                     </div>
-                    <div className="project-content">
+                    <div className="gallery-content">
                         <div className="gallery-content">
                             <div className="isotope">
                                 <div className="row">
@@ -57,4 +57,4 @@ const Project = ({ data }) => {
     )
 }
 
-export default Project
+export default Gallery

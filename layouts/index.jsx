@@ -167,7 +167,7 @@ const Layout = ({ data }) => {
             <HMFooter data={data.footer} />
             <FooterCopyright data={data.footerCopyright} />
 
-            <Loading />
+            <Loading data={data.loading} />
 
 
             <script src="assets/js/jquery.js"></script>

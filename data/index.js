@@ -147,6 +147,11 @@ const data = {
             title: 'Sitemap',
             link: 'https://www.turingcol.com/sitemap.xml'
         }
+    },
+    loading: {
+        primaryTitle: '<span>¿Problemas</span> con tu <span>computadora?</span>',
+        secondaryTitle: `<span>¡Nosotros</span> te <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ayudamos!`
     }
 }
 

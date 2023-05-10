@@ -1,6 +1,9 @@
 import Logo from '../logo'
 
-const Loading = () => {
+const Loading = ({ data }) => {
+
+    const { primaryTitle, secondaryTitle } = data;
+
     return (
         <section className="loader">
             <div className="loader-logo">
@@ -10,14 +13,9 @@ const Loading = () => {
             <div className="loader-wrapper">
                 <div className="overlay">
                     <div className="loader-text">
-                        <h1 className="first">
-                            <span>¿Problemas</span> con tu <span>computadora?</span>
-                        </h1>
+                        <h1 className="first" dangerouslySetInnerHTML={{ __html: primaryTitle }} />
 
-                        <h1 className="second">
-                            <span>¡Nosotros</span> te <br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ayudamos!
-                        </h1>
+                        <h1 className="second" dangerouslySetInnerHTML={{ __html: secondaryTitle }} />
                     </div>
                     <div className="loader-image">
 

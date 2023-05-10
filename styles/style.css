@@ -2049,9 +2049,13 @@ a:active.learn-btn {
 }
 
 /* foot-menu  */
+.foot-menu {
+	padding-top: 2rem;
+}
+
 .foot-menu ul li {
 	float: left;
-	padding-left: 15px;
+	padding-left: 0;
 	text-transform: capitalize;
 }
 

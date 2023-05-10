@@ -1,23 +1,21 @@
-const FooterCopyright = () => {
+const FooterCopyright = ({ data }) => {
+    const { allRights, sitemap } = data;
+
     return (
         <footer className="footer-copyright">
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-7">
-                        <div className="foot-copyright pull-left">
+                    <div className="col-sm-12">
+                        <div className="foot-copyright">
                             <p>
-                                &copy; All Rights Reserve
-                                <a href="https://www.themesine.com">ThemeSINE</a>
+                            Copyright &copy; {allRights}
                             </p>
                         </div>
                     </div>
-                    <div className="col-sm-5">
-                        <div className="foot-menu pull-right
-						">
+                    <div className="col-sm-12">
+                        <div className="foot-menu">
                             <ul>
-                                <li ><a href="#">legal</a></li>
-                                <li ><a href="#">sitemap</a></li>
-                                <li ><a href="#">privacy policy</a></li>
+                                <li><a href={sitemap.link} >{sitemap.title}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -27,7 +25,7 @@ const FooterCopyright = () => {
                 </div>
             </div>
 
-        </footer>
+        </footer >
     )
 }
 

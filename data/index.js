@@ -140,6 +140,13 @@ const data = {
             title: 'Enlaces útiles',
             links
         }
+    },
+    footerCopyright: {
+        allRights: 'Turing tecnología 2023',
+        sitemap: {
+            title: 'Sitemap',
+            link: 'https://www.turingcol.com/sitemap.xml'
+        }
     }
 }
 

@@ -29,6 +29,10 @@ const data = {
             {
                 id: 2,
                 active: false
+            },
+            {
+                id: 3,
+                active: false
             }
         ],
         button: {

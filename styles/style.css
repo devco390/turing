@@ -548,9 +548,16 @@ a.call-to-action:focus {
 	z-index: 1;
 }
 
+.single-slide-item.slide-3 {
+	background-image: url(/assets/images/hero/slider-3.jpg);
+	position: relative;
+	z-index: 1;
+}
+
 .single-slide-item.slide-1:before,
-.single-slide-item.slide-2:before {
-	background: rgba(var(--primary-color-rgb), .7);
+.single-slide-item.slide-2:before,
+.single-slide-item.slide-3:before {
+	background: rgba(var(--primary-color-dark-rgb), .7);
 	position: absolute;
 	left: 0;
 	top: 0;

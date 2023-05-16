@@ -2,6 +2,9 @@
 
 yarn.lock
 
+# media
+/media
+
 # dependencies
 /node_modules
 /.pnp

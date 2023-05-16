@@ -24,15 +24,27 @@ const data = {
         cards: [
             {
                 id: 1,
-                active: true
+                active: true,
+                image: {
+                    url: '/assets/images/hero/slider-1.jpg',
+                    alt: 'Hero image 1'
+                }
             },
             {
                 id: 2,
-                active: false
+                active: false,
+                image: {
+                    url: '/assets/images/hero/slider-2.jpg',
+                    alt: 'Hero image 2'
+                }
             },
             {
                 id: 3,
-                active: false
+                active: false,
+                image: {
+                    url: '/assets/images/hero/slider-3.jpg',
+                    alt: 'Hero image 3'
+                }
             }
         ],
         button: {
@@ -101,23 +113,23 @@ const data = {
     gallery: {
         title: 'Galería',
         image1: {
-            url: '/assets/images/project/project1.jpg',
+            url: '/assets/images/gallery/gallery-1.jpg',
             alt: 'portfolio image'
         },
         image2: {
-            url: '/assets/images/project/project2.jpg',
+            url: '/assets/images/gallery/gallery-2.jpg',
             alt: 'portfolio image'
         },
         image3: {
-            url: 'assets/images/project/project3.jpg',
+            url: '/assets/images/gallery/gallery-3.jpg',
             alt: 'portfolio image'
         },
         image4: {
-            url: 'assets/images/project/project4.jpg',
+            url: '/assets/images/gallery/gallery-4.jpg',
             alt: 'portfolio image'
         },
         image5: {
-            url: 'assets/images/project/project5.jpg',
+            url: '/assets/images/gallery/gallery-5.jpg',
             alt: 'portfolio image'
         },
     },

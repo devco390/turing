@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Gallery = ({ data }) => {
 
     const { title, image1, image2, image3, image4, image5 } = data;
@@ -15,31 +17,31 @@ const Gallery = ({ data }) => {
                                 <div className="row">
                                     <div className=" col-md-4 col-sm-12">
                                         <div className="item big-height">
-                                            <img src={image1.url} alt={image1.alt} />
+                                            <Image src={image1.url} alt={image1.alt} layout={'fill'} />
                                         </div>
                                     </div>
                                     <div className="col-md-8 col-sm-12">
                                         <div className="row">
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="item">
-                                                    <img src={image2.url} alt={image2.alt} />
+                                                    <Image src={image2.url} alt={image2.alt} layout={'fill'} />
                                                 </div>
                                             </div>
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="item">
-                                                    <img src={image3.url} alt={image3.alt} />
+                                                    <Image src={image3.url} alt={image3.alt} layout={'fill'} />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="row">
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="item">
-                                                    <img src={image4.url} alt={image4.alt} />
+                                                    <Image src={image4.url} alt={image4.alt} layout={'fill'} />
                                                 </div>
                                             </div>
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="item">
-                                                    <img src={image5.url} alt={image5.alt} />
+                                                    <Image src={image5.url} alt={image5.alt} layout={'fill'} />
                                                 </div>
                                             </div>
                                         </div>

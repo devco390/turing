@@ -4,12 +4,6 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,700i,900,900i" rel="stylesheet" />
-
-                <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-
-                <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
-
 
                 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
@@ -35,7 +29,11 @@ export default function Document() {
 
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
+                
                 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400,400i,500,600,700&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400,400i,500,600,700&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400,400i,500,600,700&display=swap" rel="stylesheet" />
             </Head>
             <body>
                 <Main />

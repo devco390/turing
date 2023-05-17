@@ -1186,11 +1186,26 @@ a.call-to-action:focus {
 }
 
 .single-online-address span {
-	position: absolute;
 	font-size: 14px;
-	left: 25px;
-	top: 0;
 	width: 100%;
+}
+
+.single-online-address__icon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-right: 1rem;
+	position: relative;
+	top: 2px;
+}
+
+.single-online-address__icon--phone {
+	background: url(/assets/svg/phone-white.svg) no-repeat 50%;
+	padding-right: 25px;
+}
+
+.single-online-address__icon--email {
+	background: url(/assets/svg/email-white.svg) no-repeat 50%;
 }
 
 /* contact-adress */
@@ -1455,42 +1470,6 @@ a.call-to-action:focus {
 .foot-menu li {
 	position: relative;
 	padding-left: 42px;
-}
-
-
-
-/*===============================
-    Scroll Top
-===============================*/
-#scroll-Top .return-to-top {
-	position: fixed;
-	right: 30px;
-	bottom: 30px;
-	display: none;
-	width: 40px;
-	line-height: 40px;
-	height: 40px;
-	text-align: center;
-	font-size: 30px;
-	cursor: pointer;
-	z-index: 15;
-	color: #fff;
-	background: var(--primary-color);
-	border: 1px solid var(--primary-color);
-	border-radius: 5px;
-	-webkit-transition: .5s;
-	-moz-transition: .5s;
-	-ms-transition: .5s;
-	-o-transition: .5s;
-	transition: .5s;
-	z-index: 2;
-}
-
-#scroll-Top .return-to-top:hover {
-	background: var(--primary-color);
-	color: #fff;
-	border: 1px solid var(--primary-color);
-	border-radius: 50%;
 }
 
 /*========================Thank you=================*/

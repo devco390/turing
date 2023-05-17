@@ -27,13 +27,13 @@ const Contact = ({ data }) => {
                                                 <div className="contact-online-address">
                                                     <div className="single-online-address">
                                                         <a href={phone.linnk}>
-                                                            <i className="fa fa-phone"></i>
+                                                            <i className="single-online-address__icon single-online-address__icon--phone"></i>
                                                             {phone.title}
                                                         </a>
                                                     </div>
                                                     <div className="single-online-address">
                                                         <a href={email.link}>
-                                                            <i className="fa fa-envelope-o"></i>
+                                                            <i className="single-online-address__icon single-online-address__icon--email"></i>
                                                             <span>{email.title}</span>
                                                         </a>
                                                     </div>

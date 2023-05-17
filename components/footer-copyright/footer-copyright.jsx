@@ -20,9 +20,6 @@ const FooterCopyright = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <div id="scroll-Top">
-                    <i className="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-                </div>
             </div>
 
         </footer >

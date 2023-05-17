@@ -87,8 +87,6 @@ const Layout = ({ data }) => {
 
             <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
-            <script src="assets/js/bootsnav.js"></script>
-
             <script
                 src="assets/js/jquery.hc-sticky.min.js"
                 type="text/javascript"

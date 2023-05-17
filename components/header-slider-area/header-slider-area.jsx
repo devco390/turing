@@ -52,9 +52,7 @@ const HeaderSliderArea = ({ data }) => {
                         })
                     }
                 </div>
-
             </div>
-
         </section>
 
     )

@@ -2,7 +2,6 @@
 
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
-font-family: 'Lato', sans-serif;
 
 ==================================== */
 
@@ -315,7 +314,7 @@ a.call-to-action:focus {
 	color: #ffffff;
 	padding-left: .5rem;
 	font-weight: 600;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .call-to-action:hover .call-to-action__circle,
@@ -367,8 +366,8 @@ a.call-to-action:focus {
 
 .navbar-default .navbar-nav li a {
 	font-size: 16px;
-	color: #fff;
-	font-family: 'Lato', sans-serif;
+	color: #fff !important;
+	font-family: 'Poppins', sans-serif;
 	margin-top: 18px;
 	padding-left: 27px;
 	-webkit-transition: .5s;
@@ -381,7 +380,7 @@ a.call-to-action:focus {
 .navbar-default.navbar-nav li a:active,
 .navbar-default.navbar-nav li a:focus,
 .navbar-default .navbar-nav li a:hover {
-	color: #fff;
+	color: #fff !important;
 	outline: 0;
 	font-weight: 700;
 	margin-top: 18px;
@@ -397,10 +396,10 @@ a.call-to-action:focus {
 	background: transparent;
 	color: #fff;
 	font-weight: 700;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	margin-top: 18px;
 	padding-bottom: 0;
-	padding-left: 27px;
+	padding-left: .75rem;
 }
 
 /* navbar-default */
@@ -492,7 +491,7 @@ a.call-to-action:focus {
 	color: #fefefe;
 	font-size: 24px;
 	max-width: 805px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height: 1.5;
 	margin-bottom: 51px;
 }
@@ -512,8 +511,7 @@ a.call-to-action:focus {
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+	font-family: Poppins;
 	margin-bottom: 3.5rem;
 	outline: 0;
 	box-shadow: none;
@@ -592,7 +590,7 @@ a.call-to-action:focus {
 	color: #fff;
 	font-size: 22px;
 	font-weight: 700;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	border-radius: 50%;
 	-webkit-transition: .5s;
 	-moz-transition: .5s;
@@ -964,7 +962,7 @@ a.call-to-action:focus {
 .isotope-overlay a {
 	color: #fff;
 	font-size: 24px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .isotope-overlay h3 a {
@@ -974,7 +972,7 @@ a.call-to-action:focus {
 .isotope-overlay p {
 	color: #fff;
 	font-size: 14px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	margin-top: 15px;
 }
 
@@ -1521,7 +1519,7 @@ a.call-to-action:focus {
 }
 
 .hero__button {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	padding-top: 3rem;
 }
 

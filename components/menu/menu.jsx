@@ -21,7 +21,7 @@ const Menu = ({ data, callToActions }) => {
                             </a>
                         </div>
 
-                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style={{ paddingLeft: '3rem' }}>
                             <ul className="nav navbar-nav navbar-right">
                                 {data.items.map((item, index) => {
                                     return <li key={index} className="smooth-menu"><a href={item.link}>{item.text}</a></li>

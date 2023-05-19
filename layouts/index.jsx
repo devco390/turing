@@ -78,29 +78,27 @@ const Layout = ({ data }) => {
             <Loading data={data.loading} />
 
 
-            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.min.js" />
 
             <script
                 type="text/javascript"
-                src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-            ></script>
+                src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" />
 
-            <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="assets/js/bootstrap.min.js" />
 
             <script
                 src="assets/js/jquery.hc-sticky.min.js"
-                type="text/javascript"
-            ></script>
+                type="text/javascript" />
 
             <script
                 type="text/javascript"
                 src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
-            ></script>
+            />
 
-            <script src="assets/js/jquery.counterup.min.js"></script>
-            <script src="assets/js/waypoints.min.js"></script>
+            <script src="assets/js/jquery.counterup.min.js" />
+            <script src="assets/js/waypoints.min.js" />
 
-            <script type="text/javascript" src="assets/js/jak-menusearch.js"></script>
+            <script type="text/javascript" src="assets/js/jak-menusearch.js" />
         </>
 
 

@@ -263,7 +263,7 @@ body {
 
 .wrapper-sticky .call-to-actions {
 	align-items: center;
-	background: rgba(var(--primary-color-dark-rgb), .8);
+	background: rgba(var(--primary-color-dark-rgb), .9);
 	display: flex;
 	grid-gap: 2rem;
 	height: 48px;
@@ -348,7 +348,7 @@ a.call-to-action:focus {
 
 /* sticky */
 #menu {
-	background: rgba(var(--primary-color-rgb), 1);
+	background: #ffffff;
 	padding: 10px 0px 0px;
 	height: 80px;
 	color: #fff;
@@ -366,7 +366,7 @@ a.call-to-action:focus {
 
 .navbar-default .navbar-nav li a {
 	font-size: 16px;
-	color: #fff !important;
+	color: var(--primary-color-dark) !important;
 	font-family: 'Poppins', sans-serif;
 	margin-top: 18px;
 	padding-left: 27px;
@@ -380,7 +380,7 @@ a.call-to-action:focus {
 .navbar-default.navbar-nav li a:active,
 .navbar-default.navbar-nav li a:focus,
 .navbar-default .navbar-nav li a:hover {
-	color: #fff !important;
+	color: var(--primary-color-dark) !important;
 	outline: 0;
 	font-weight: 700;
 	margin-top: 18px;
@@ -409,12 +409,12 @@ a.call-to-action:focus {
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
 	background-color: transparent;
-	border: 1px solid #000;
+	border: 1px solid var(--primary-color-dark);
 	margin-top: 14px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #000;
+	background-color: var(--primary-color-dark);
 
 }
 
@@ -1483,28 +1483,28 @@ a.call-to-action:focus {
 }
 
 .wrapper-sticky .logo {
-	padding-top: 1.5rem;
-}
-
-.wrapper-sticky .logo {
 	padding-top: 0;
 }
 
 .logo__text {
 	font-size: 38px;
 	line-height: 38px;
-	color: #ffffff;
 	padding-bottom: 0.25rem;
+	color: var(--primary-color-dark);
 	height: auto;
 }
 
 .logo__help-text {
 	font-size: 16px;
-	color: #ffffff;
 	display: flex;
+	color: var(--primary-color-dark);
 	justify-content: flex-end;
 }
 
+.logo.logo--white .logo__text,
+.logo.logo--white .logo__help-text {
+	color: white;
+}
 
 /*===============================
     Hero

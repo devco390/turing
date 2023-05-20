@@ -13,7 +13,7 @@ const HMFooter = ({ data }) => {
                 <div className="hm-foot-title ">
                   <div className="logo">
                     <a href="#home">
-                      <Logo />
+                      <Logo isWhite={true}/>
                     </a>
                   </div>
                 </div>

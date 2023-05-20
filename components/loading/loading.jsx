@@ -7,7 +7,7 @@ const Loading = ({ data }) => {
     return (
         <section className="loader">
             <div className="loader-logo">
-                <Logo />
+                <Logo isWhite={true} />
             </div>
 
             <div className="loader-wrapper">

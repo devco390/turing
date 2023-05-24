@@ -34,6 +34,7 @@ const HeaderSliderArea = ({ data }) => {
                                             className='single-slide-item__image'
                                             src={image.url}
                                             alt={image.alt}
+                                            priority={true}
                                             layout={'fill'}
                                         />
                                     </div>

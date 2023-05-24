@@ -10,8 +10,16 @@ const Index = () => {
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="content-language" content="es" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{data.title}</title>
+
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Realizamos Mantenimiento y Reparación de Impresoras a Domicilio Servicio Garantizado. Contamos con Técnicos Altamente Calificados en Todo Tipo de Impresoras."
+        />
       </Head>
 
       <Layout data={data} />

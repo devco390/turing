@@ -26,9 +26,9 @@ const Contact = ({ data }) => {
                                                 </a>
                                                 <div className="contact-online-address">
                                                     <div className="single-online-address">
-                                                        <a href={phone.linnk}>
+                                                        <a href={phone.link}>
                                                             <i className="single-online-address__icon single-online-address__icon--phone"></i>
-                                                            {phone.title}
+                                                            <span>{phone.title}</span>
                                                         </a>
                                                     </div>
                                                     <div className="single-online-address">

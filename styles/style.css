@@ -1170,7 +1170,13 @@ a.call-to-action:focus {
 .single-online-address a:active,
 .single-online-address a:focus {
 	color: #fff;
-	font-size: 14px;
+}
+
+.single-online-address a {
+	display: flex;
+	align-items: center;
+	height: 34px;
+	width: 100%;
 }
 
 .single-online-address {
@@ -1189,8 +1195,8 @@ a.call-to-action:focus {
 
 .single-online-address__icon {
 	display: inline-block;
-	width: 14px;
-	height: 14px;
+	width: 24px;
+	height: 24px;
 	margin-right: 1rem;
 	position: relative;
 	top: 2px;
@@ -1198,11 +1204,10 @@ a.call-to-action:focus {
 
 .single-online-address__icon--phone {
 	background: url(/assets/svg/phone-white.svg) no-repeat 50%;
-	padding-right: 25px;
 }
 
 .single-online-address__icon--email {
-	background: url(/assets/svg/email-white.svg) no-repeat 50%;
+	background: url(/assets/svg/email-white.svg) no-repeat 80%;
 }
 
 /* contact-adress */

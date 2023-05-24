@@ -615,8 +615,7 @@ a.call-to-action:focus {
 
 /* .carousel-fade */
 .carousel-fade .carousel-inner .item {
-	-webkit-transition-property: opacity;
-	transition-property: opacity;
+	transition: opacity 1s;
 }
 
 .carousel-fade .carousel-inner .item,
@@ -636,7 +635,6 @@ a.call-to-action:focus {
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
 	left: 0;
-	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
 

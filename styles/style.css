@@ -271,7 +271,7 @@ body {
 	min-height: 48px;
 	min-width: 100%;
 	width: 100%;
-	transform: translateY(-16px);
+	transform: translateY(-24px);
 	box-shadow: 0 4px 16px rgba(0, 0, 0, .1);
 }
 
@@ -1477,38 +1477,8 @@ a.call-to-action:focus {
 
 /*========================Thank you=================*/
 
-
-.logo {
-	display: flex;
-	flex-direction: column;
-	font-family: 'Comfortaa';
-	font-weight: 700;
-	width: 125px;
-	max-width: 125px;
-}
-
 .wrapper-sticky .logo {
 	padding-top: 0;
-}
-
-.logo__text {
-	font-size: 38px;
-	line-height: 38px;
-	padding-bottom: 0.25rem;
-	color: var(--primary-color-dark);
-	height: auto;
-}
-
-.logo__help-text {
-	font-size: 16px;
-	display: flex;
-	color: var(--primary-color-dark);
-	justify-content: flex-end;
-}
-
-.logo.logo--white .logo__text,
-.logo.logo--white .logo__help-text {
-	color: white;
 }
 
 /*===============================

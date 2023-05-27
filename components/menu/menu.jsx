@@ -16,7 +16,7 @@ const Menu = ({ data, callToActions }) => {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <a href="#home">
+                            <a href="#home" aria-label="Link to home">
                                 <Logo />
                             </a>
                         </div>

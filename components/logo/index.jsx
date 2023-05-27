@@ -1,6 +1,4 @@
 const Logo = ({ isWhite }) => {
-    console.log({ isWhite })
-
     const fill = isWhite ? '#FFF' : '#413E7E';
 
     return (

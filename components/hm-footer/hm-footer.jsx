@@ -12,7 +12,7 @@ const HMFooter = ({ data }) => {
               <div className="hm-footer-widget">
                 <div className="hm-foot-title ">
                   <div className="logo">
-                    <a href="#home">
+                    <a href="#home" aria-label="Link to home">
                       <Logo isWhite={true}/>
                     </a>
                   </div>

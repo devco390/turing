@@ -23,7 +23,7 @@ const HeaderSliderArea = ({ data }) => {
 
             <div id="carousel-example-generic" className="carousel slide carousel-fade" data-ride="carousel">
 
-                <div className="carousel-inner" role="listbox">
+                <div className="carousel-inner">
                     {
                         data.cards.map(({ id, active, image }) => {
                             const activeClass = active ? 'active' : '';

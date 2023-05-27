@@ -179,7 +179,7 @@
 	.wrapper-sticky .navbar-default .navbar-collapse,
 	.wrapper-sticky .navbar-default .navbar-form {
 		position: relative;
-		top: -3px;
+		top: 10px;
 		left: -16px;
 		border-color:
 			transparent;

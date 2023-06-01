@@ -11,7 +11,7 @@ const HeaderSliderArea = ({ data }) => {
                     <h1 className='hero__how'>{data.how}</h1>
                     <p className='hero__what'>{data.what}</p>
                     <div className="container hero__button">
-                        <button type="button" className="slide-btn hero__call-to-action__call">
+                        <button type="button" className="slide-btn">
                             <a href={data.button.link} id="hero__call-to-action__call" class="hero__call-to-action__call">
                                 {data.button.title}
                             </a>

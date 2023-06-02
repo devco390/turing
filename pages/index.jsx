@@ -5,6 +5,11 @@ import data from '../data';
 
 const Index = () => {
 
+  console.log('==========================');
+  console.log('style is the answer to everything...');
+  console.log('https://youtu.be/nGnGj3zL-bU');
+  console.log('==========================');
+
   return (
     <div>
       <Head>

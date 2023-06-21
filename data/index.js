@@ -14,6 +14,7 @@ const links = [
 
 const data = {
     title: 'Mantenimiento y reparación de computadores a domicilio',
+    description: 'Realizamos Mantenimiento y Reparación de Impresoras a Domicilio Servicio Garantizado. Contamos con Técnicos Altamente Calificados en Todo Tipo de Computadores',
     menu: {
         items: links
     },

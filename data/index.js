@@ -14,7 +14,7 @@ const links = [
 
 const data = {
     title: 'Soluciones Informáticas a tu Alcance',
-    description: 'Encuentra suministros para computadores en Bogotá y disfruta de nuestra atención personalizada. Además, contamos con servicio de mantenimiento y reparación a domicilio',
+    description: 'Encuentra suministros para computadores en Bogotá y disfruta de nuestra atención personalizada',
     menu: {
         items: links
     },

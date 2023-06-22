@@ -21,7 +21,7 @@ const data = {
     headerSliderArea: {
         why: 'Problemas con tu computador?',
         how: 'Venta de suministros para computadores',
-        what: 'Maximiza el potencial de tu equipo: Optimización, formateo y venta de partes para un rendimiento superior',
+        what: 'Nosotros te ayudamos',
         cards: [
             {
                 id: 1,

@@ -13,8 +13,8 @@ const links = [
 ]
 
 const data = {
-    title: 'Expertos en tecnología a tu servicio',
-    description: 'Realizamos Mantenimiento y Reparación de Impresoras a Domicilio Servicio Garantizado. Contamos con Técnicos Altamente Calificados en Todo Tipo de Computadores',
+    title: 'Soluciones Informáticas a tu Alcance',
+    description: 'Encuentra suministros para computadores en Bogotá y disfruta de nuestra atención personalizada. Además, contamos con servicio de mantenimiento y reparación a domicilio',
     menu: {
         items: links
     },

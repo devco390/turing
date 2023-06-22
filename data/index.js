@@ -21,7 +21,7 @@ const data = {
     headerSliderArea: {
         why: 'Expertos en tecnología a tu servicio',
         how: 'Mantenimiento y Reparación de Computadores a Domicilio',
-        what: 'Optimización y Mantenimiento Preventivo, Formateo Windows o Mac, Instalación de Programas',
+        what: 'Maximiza el potencial de tu equipo: Optimización, formateo y venta de partes para un rendimiento superior',
         cards: [
             {
                 id: 1,

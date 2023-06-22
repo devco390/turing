@@ -14,12 +14,12 @@ const links = [
 
 const data = {
     title: 'Soluciones Informáticas a tu Alcance',
-    description: 'Encuentra suministros para computadores en Bogotá y disfruta de nuestra atención personalizada',
+    description: 'Encuentra suministros para computadores en Bogotá',
     menu: {
         items: links
     },
     headerSliderArea: {
-        why: 'Expertos en tecnología a tu servicio',
+        why: 'Problemas con tu computador?',
         how: 'Venta de suministros para computadores',
         what: 'Maximiza el potencial de tu equipo: Optimización, formateo y venta de partes para un rendimiento superior',
         cards: [

@@ -16,7 +16,7 @@ const HeaderSliderArea = ({ data }) => {
                                 {data.button.title}
                             </a>
                         </button>
-                        <Brands />
+                        {/* <Brands /> */}
                     </div>
                 </div>
             </div>

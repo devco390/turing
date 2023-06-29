@@ -14,14 +14,14 @@ const links = [
 
 const data = {
     title: 'Soluciones Informáticas a tu Alcance',
-    description: 'Encuentra suministros para computadores en Bogotá y disfruta de nuestra atención personalizada. Además, contamos con servicio de mantenimiento y reparación a domicilio',
+    description: 'Encuentra suministros para computadores en Bogotá y disfruta de nuestra atención personalizada.',
     menu: {
         items: links
     },
     headerSliderArea: {
         why: 'Expertos en tecnología a tu servicio',
-        how: 'Mantenimiento y Reparación de Computadores a Domicilio',
-        what: 'Optimización y Mantenimiento Preventivo, Formateo Windows o Mac, Instalación de Programas',
+        how: 'Mantenimiento de Computadores a Domicilio en Bogotá',
+        what: 'Venta de Partes para PC, Optimización y Mantenimiento Preventivo, Formateo, Programas, Redes.',
         cards: [
             {
                 id: 1,
@@ -69,14 +69,14 @@ const data = {
         items: [
             {
                 id: 'repair',
-                title: 'Mantenimiento y reparación',
-                description: 'Te ayudamos con la reparación de tu computador o evita fallos con nuestros mantenimientos preventivos.',
+                title: 'Mantenimiento',
+                description: 'Evita fallos con nuestros mantenimientos preventivos y correctivos.',
                 imageUrl: '/assets/svg/repair.svg'
             },
             {
                 id: 'install',
-                title: 'Instalación de programas',
-                description: 'Deja en manos de nuestros profesionales la instalación de tus programas de diseño, Office y antivirus; para que puedas enfocarte en tu trabajo.',
+                title: 'Venta de partes de computadoras',
+                description: 'Optimiza tu PC con nuestros discos de almacenamiento sólidos y memorias RAM.',
                 imageUrl: '/assets/svg/install.svg'
             },
             {

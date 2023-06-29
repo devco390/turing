@@ -3,7 +3,7 @@ import styles from './brands.module.css';
 
 const Brands = () => {
 
-    const brands = ['apple', 'microsoft', 'hp', 'lenovo', 'asus', 'dell']
+    const brands = ['a', 'm', 'h', 'l', 'as', 'd']
 
     return (
         <div className={styles.brands}>

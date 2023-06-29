@@ -6,10 +6,4 @@
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
-    <url>
-        <loc>https://www.turingcol.com/mantenimiento-de-computadores-bogota</loc>
-        <lastmod>2023-05-09T18:30:00-05:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
 </urlset>

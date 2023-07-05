@@ -20,7 +20,7 @@ const data = {
     },
     headerSliderArea: {
         why: 'Expertos en tecnología a tu servicio',
-        how: 'Mantenimiento de Computadores a Domicilio en Bogotá',
+        how: 'Venta de Partes para Computadores',
         what: 'Venta de Partes para PC, Optimización y Mantenimiento Preventivo, Formateo, Programas, Redes.',
         cards: [
             {

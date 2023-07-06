@@ -21,7 +21,7 @@ const data = {
     headerSliderArea: {
         why: 'Expertos en tecnología a tu servicio',
         how: 'Venta de Partes para Computadores',
-        what: 'Venta de Partes para PC, Optimización y Mantenimiento Preventivo, Formateo, Programas, Redes.',
+        what: '',
         cards: [
             {
                 id: 1,

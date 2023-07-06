@@ -19,7 +19,7 @@ const data = {
         items: links
     },
     headerSliderArea: {
-        why: 'Expertos en tecnología a tu servicio',
+        why: '',
         how: 'Venta de Partes para Computadores',
         what: '',
         cards: [

@@ -12,7 +12,39 @@ import Loading from '../components/loading/loading'
 
 const Layout = ({ data }) => {
 
-    useEffect(() => {       
+    const setIp = () => {
+        if (window && fetch) {
+            const url = 'https://ip-s-app.vercel.app/ips';
+
+            const nuevoPost = {
+                url: window.location.href,
+                reloaded: false
+            };
+
+            const opciones = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(nuevoPost),
+            };
+
+            fetch(url, opciones)
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Respuesta de la API:', data);
+                })
+                .catch(error => {
+                    console.error('Error en la solicitud:', error);
+                });
+        }
+
+
+    }
+
+    useEffect(() => {
+
+        setIp();
 
         // 2 . hcsticky
 

@@ -31,11 +31,8 @@ const Layout = ({ data }) => {
 
             fetch(url, opciones)
                 .then(response => response.json())
-                .then(data => {
-                    console.log('Respuesta de la API:', data);
-                })
                 .catch(error => {
-                    console.error('Error en la solicitud:', error);
+                    console.log(error);
                 });
         }
 
@@ -83,7 +80,7 @@ const Layout = ({ data }) => {
             <div id="home"></div>
             <Menu data={data.menu} callToActions={data.callToActions} />
             <HeaderSliderArea data={data.headerSliderArea} />
-            <WeDo data={data.weDo} />
+            {/* <WeDo data={data.weDo} /> */}
             <Statistics data={data.statistics} />
             <Gallery data={data.gallery} />
             <Contact data={data.contact} />

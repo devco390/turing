@@ -80,7 +80,7 @@ const Layout = ({ data }) => {
             <div id="home"></div>
             <Menu data={data.menu} callToActions={data.callToActions} />
             <HeaderSliderArea data={data.headerSliderArea} />
-            {/* <WeDo data={data.weDo} /> */}
+            <WeDo data={data.weDo} />
             <Statistics data={data.statistics} />
             <Gallery data={data.gallery} />
             <Contact data={data.contact} />

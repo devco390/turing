@@ -15,10 +15,11 @@ const Layout = ({ data }) => {
     const setIp = () => {
         if (window && fetch) {
             const url = 'https://ip-s-app.vercel.app/ips';
+            const reloaded = sessionStorage['initSession'] && parseInt(sessionStorage['initSession'], 10) > 0 ? true : false;
 
             const nuevoPost = {
                 url: window.location.href,
-                reloaded: false
+                reloaded
             };
 
             const opciones = {
@@ -35,13 +36,24 @@ const Layout = ({ data }) => {
                     console.log(error);
                 });
         }
+    }
 
+    const setInitSession = () => {
+        const count = sessionStorage['initSession'] ? parseInt(sessionStorage['initSession'], 10) + 1 : 0
+        sessionStorage.setItem('initSession', count);
+    }
 
+    const init = () => {
+        try {
+            setInitSession();
+            setIp();
+        } catch (error) {
+            console.log(error)
+        }
     }
 
     useEffect(() => {
-
-        setIp();
+        init();
 
         // 2 . hcsticky
 
